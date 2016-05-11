@@ -1,0 +1,31 @@
+{
+  "name": "expense-manager",
+  "version": "1.0.0",
+  "description": "manage your expenses",
+  "main": "client/app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expense",
+    "manager"
+  ],
+  "author": "anuraag",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.5.0",
+    "bower": "^1.4.1",
+    "errorhandler": "~1.0.0",
+    "express": "~4.0.0",
+    "lodash": "^3.8.0",
+    "mongoose": "~3.8.8"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "start": "node server/app.js"
+  },
+  "private": true
+}
